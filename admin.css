@@ -1,0 +1,41 @@
+h2{
+    text-align: center;
+    background-color: #F2F2F2;
+    text-transform:uppercase;
+    font-style: italic;
+}
+button{
+    background-color: #4CAF50;
+    height: 30px;
+    color: white;
+    border: none;
+    margin-top: 3px;
+    width : 200px
+}
+p{
+    text-transform: capitalize;
+    background-color: #F2F2F2;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+    margin-top: 4px;
+    text-align: center;
+    background-color: #000F0F;
+    height: 30px;
+}
+li{
+    display: inline-flex;
+    margin: 2px;
+}
+a{
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}

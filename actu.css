@@ -1,0 +1,35 @@
+header {
+    background-color: #000F0F;
+    height: 50px;
+}
+.p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 50px;
+    color: #ffffff;
+    padding-top: 15px;
+}
+ul{
+    list-style: none;
+    margin-top: 4px;
+    text-align: center;
+    background-color: #000F0F;
+    height: 30px;
+}
+li{
+    display: inline-flex;
+    margin: 2px;
+}
+a{
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+button{
+    background-color: #eaeaea;
+}
