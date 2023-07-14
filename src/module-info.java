@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author KEBE
+ *
+ */
+module WebService {
+}
