@@ -40,6 +40,14 @@ else if( isset($_POST['contenu']) && isset($_POST['titre'])){
     $categorie = $_POST['categorie'];
 
     addArticle($pdo, $contenu, $titre, $categorie);
+    
+    $clientSOAP  =new soapClient("http://localhost:2697/Article?wsdl");
+    $param= new stdClass();
+    $param->titre=$titre;
+    $res=$vlientSOAP->soapCall("addArticle",array($param));
+
+    $res->return;
+
     header("location:editer.php");
 }
 
