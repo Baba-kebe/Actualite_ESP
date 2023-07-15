@@ -32,14 +32,11 @@ function selectArticles($PDO){
 }
 function addUser($pdo, $nom, $prenom, $email, $password, $role){
     
-    try{
         $sql = 'insert into utlisateurs values("'.$nom.'","'.$prenom.'","'.$email.'","'.$password.'","'.$role.'")';
         $requete = $pdo->prepare($sql);
         $requete->execute();
         header("location:accueilAdmin.php");
-    }catch(Exception $e){
-        die("erreur echec d'ajout");
-    }
+
 }
 function getIdentifiant($pdo, $email){
     $sql = 'select * from identifiant where email= :email';
